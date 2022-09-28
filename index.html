@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Summer Vibes</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-tl from-amber-300 via-amber-400 to-amber-500">
+    <header class="bg-amber-200">
+        <div class="container max-w-screen-xl flex h-14 mx-auto justify-between place-items-center">
+            <h2 class="text-2xl grow-0">Summer Vibes</h2>
+            <form action="#">
+                <input type="text" name="search" class="w-96 p-2 border border-black-500 border-3 rounded-lg shadow">
+                <button type="button" class="py-2 px-4  bg-amber-500 hover:bg-amber-400 ml-2 rounded-lg shadow">Go</button>
+            </form>
+            <ul class="flex justify-end">
+                <li class="mx-2">
+                    <i class="fa-sharp fa-solid fa-house mr-1"></i>
+                    Home
+                </li>
+                <li class="mx-2">
+                    <i class="fa-solid fa-book mr-1"></i>
+                    About
+                </li>
+                <li class="mx-2">
+                    <i class="fa-sharp fa-solid fa-comment mr-1"></i>
+                    Contact
+                </li>
+                <li class="mx-2">
+                    <i class="fa-solid fa-user mr-1"></i>
+                    My Account
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="mt-4">
+        <div class="container max-w-screen flex h-96 mx-auto justify-between place-items-center">
+            <div class="relative max-w-screen">
+                <img src="https://picsum.photos/id/203/1536/384" height="100%" width="100%" alt="" class="rounded-lg">
+                <p class="absolute top-10 left-8 ml-5 p-5 text-5xl w-96 leading-2 italic text-slate-500">Summer Relaxation is just a click away!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommended Vibes -->
+    <section>
+        <div class="container max-w-screen-xl mx-auto flex place-items-center justify-between bg-amber-200 mt-4 p-4 rounded-lg border-2 border-amber-400 shadow">
+            <p>
+                <i class="fa-solid fa-fire text-orange-400 mr-4 text-xl"></i>
+                <span class="font-bold">HOTTEST DEALS!</span>
+                Take advantage of some of our hottest deals!
+            </p>
+            <p>
+                <i class="fa-sharp fa-solid fa-exclamation text-lg"></i>
+                Ends: 10/20/2023
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container max-w-screen-xl mx-auto flex justify-between place-items-center mt-4">
+            <div>
+                <img src="https://picsum.photos/id/124/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to Venice!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1999.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1299.99</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/177/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to Australia!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1899.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1099.99</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/11/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to England!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1999.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1299.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Vibes -->
+    <section class="mt-10">
+        <div class="container max-w-screen-xl mx-auto flex place-items-center justify-between bg-amber-200 mt-4 p-4 rounded-lg border-2 border-amber-400 shadow">
+            <p>
+                <i class="fa-solid fa-fire text-orange-400 mr-4 text-xl"></i>
+                <span class="font-bold text-lg">Check out other deals out!</span> Interested in other vacation ideas? We got you covered!
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container max-w-screen-xl mx-auto flex justify-between place-items-center mt-4">
+            <div>
+                <img src="https://picsum.photos/id/1011/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to Venice!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1999.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1299.99</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/10/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to Australia!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1899.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1099.99</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/1040/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to England!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1999.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1299.99</p>
+                </div>
+            </div>
+        </div>
+        <div class="container max-w-screen-xl mx-auto flex justify-between place-items-center mt-4">
+            <div>
+                <img src="https://picsum.photos/id/1043/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to Venice!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1999.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1299.99</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/1044/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to Australia!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1899.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1099.99</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/1067/400/250" alt="" class="rounded-t-lg">
+                <p class="pl-4 py-2 bg-amber-200">All inclusive vacation to England!</p>
+                <div class="px-4 bg-amber-200 flex justify-between place-items-center rounded-b-lg">
+                    <p class="line-through text-md">Was: $1999.99</p>
+                    <p class="p-4 bg-amber-200 text-right font-bold">Price: $1299.99</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mt-5">
+        <div class="container max-w-screen-xl flex mx-auto place-items-center justify-center">
+            <ul class="flex border-amber-400 bg-amber-200 rounded-lg">
+                <li class="ml-2 hover:bg-amber-600 p-3">&#60;&#60;</li>
+                <li class="ml-2 hover:bg-amber-600 p-3">1</li>
+                <li class="ml-2 hover:bg-amber-600 p-3">2</li>
+                <li class="ml-2 hover:bg-amber-600 p-3">3</li>
+                <li class="ml-2 hover:bg-amber-600 p-3">4</li>
+                <li class="ml-2 hover:bg-amber-600 p-3">5</li>
+                <li class="ml-2 hover:bg-amber-600 p-3">&#62;&#62;</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="mt-12 bg-amber-200">
+        <div class="container max-w-screen-xl flex mx-auto justify-between place-items-center h-24">
+            <p class="text-xl font-bold">Summer Vibes<sup class="text-sm">&nbsp;LLC</sup></p>
+            <p>
+                C: David Birkin <br>
+                E: summervibes@mailinator.com <br>
+                P: (111) 111-1111
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
